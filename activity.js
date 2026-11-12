@@ -5,7 +5,7 @@
   if (!frame) return;
   try {
     const target = (window.parent && window.parent.opener) || window.parent;
-    target.postMessage([0, {v: 1, encoding: 'json', client_id: '1509082407213469817', frame_id: frame}],
+    target.postMessage([0, {v: 1, encoding: 'json', client_id: '1570253181580083241', frame_id: frame}],
                        document.referrer || '*');
   } catch (e) { /* not inside Discord after all */ }
 })();
